@@ -239,17 +239,17 @@
         <p>上海谦问万答吧云计算科技有限公司 版权所有 沪ICP备14016022号-1</p>
       </div>
     </div>
-    <!-- <Suspension></Suspension>
-    <Screen></Screen> -->
+    <Suspension></Suspension>
+    <Screen></Screen>
 
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner"
-// import Suspension from "@/components/Suspension"
+import Suspension from "@/components/Suspension"
 import FootForm from "@/components/FootForm"
-// import Screen from "@/components/Screen"
+import Screen from "@/components/Screen"
 import List from "@/components/List"
 
 
@@ -257,9 +257,9 @@ import List from "@/components/List"
 export default {
   components: {
     Banner,
-    // Suspension,
+    Suspension,
     FootForm,
-    // Screen,
+    Screen,
     List
   },
   data () {
